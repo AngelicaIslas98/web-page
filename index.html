@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-AU-Compatible" content="IE-edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portafolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fdc9d7c4f4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/lgrem.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href ="#header">Home</a></li>
+                    <li><a href ="#about">About</a></li>
+                    <li><a href ="#services">Services</a></li>
+                    <li><a href ="#portfolio">Portfolio</a></li>
+                    <li><a href ="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-regular fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>Hi, I'm <span>Angelica</span><br>Islas from México</h1>
+                </div>
+            </div>
+        </div>
+<!--About-->
+<div id ="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/personal.jpg">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br> 
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div><!--aqui iba el div de tab-titles-->
+                            <!--Skills-->
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Developer</span><br>Develop C programs</li>
+                                    <li><span>Web Development</span><br>Web pages Development</li>
+                                    <li><span>IT Support</span><br>Personal work</li>
+                                    <li><span>Excel automatitacion with VBA</span><br>Cancer Center</li>
+                                </ul>
+                            </div>
+                            <!--Experience-->
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2022 - Current</span><br>C Development at TECNM</li>
+                                    <li><span>2022- Current</span><br>Web pages desing</li>
+                                    <li><span>IT Support</span><br>Personal work</li>
+                                </ul>
+                            </div>
+                            <!---Education--->
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Current</span><br>C Development at TECNM Institute</li>
+                                    <li><span>2022</span><br>Web pages at Platzi</li>
+                                    <li><span>2023</span><br>IT Specialist Google</li>
+                                    <li><span>2023</span><br>IT Automation with Python</li>
+                                </ul>
+                            </div>
+                <!--secciones NO funcionan-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--Services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list"> 
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C Code</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br> 
+                    ex ea commodo consequat just lopeus santirus.</p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Projects</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br> 
+                    ex ea commodo consequat just lopeus santirus.</p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Others</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip<br> 
+                    ex ea commodo consequat just lopeus santirus.</p>
+                <a href="#">Learn more</a>
+             </div>
+        </div>
+    </div>
+</div>
+<!---  Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <i class="fa-brands fa-github"></i>
+               <div class="layer">
+                    <h2>Chek the projects</h2>
+                    <a href="https://github.com/AngelicaIslas98" target="_blank" rel="noopener noreferrer">GitHub</i></a>
+                </div>
+            </div>
+            <div class="work">                
+                <i class="fa-brands fa-linkedin"></i>
+                <div class="layer">
+                    <h2>Contact me</h2>
+                    <a href="https://www.linkedin.com/in/cynthia-angelica-morales-islas-403415189/" target="_blank" rel="noopener noreferrer">LinkedIn</i></a>
+                </div>
+            </div>
+            <div class="work">                
+                <i class="fa-brands fa-youtube"></i>
+                <div class="layer">
+                    <h2>Enjoy</h2>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Youtube</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---Contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> cynthia.angelicaislas@gmail.com</p>
+                <p><i class="fa-regular fa-circle-phone-flip"></i> +52 729 109 69979</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/CV. Cynthia Angelica Morales Islas  (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello!</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by <i class="fa-regular fa-file-heart"></i> AngelicaIslas</p>
+    </div>
+</div>
+
+<!--Script-->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById("tabname").classList.add("active-tab");
+    }
+</script>
+
+<!--menu movile-->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyph105nGhZ5mS358jnkLww-xEVkfX0kLdAfUj-qJnXyLVb8HFFVRfnrkVOzr3xybRU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfuly"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
